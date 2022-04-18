@@ -13,7 +13,7 @@ You can also authorize me to download private posts.
 
  learn more Click buttons
 
-By @Miuiprojects
+By @mylog_channel
     """
 
     # Home Button
@@ -23,12 +23,12 @@ By @Miuiprojects
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ STATUS 🌺", url="https://t.me/Miuiprojects")],
+        [InlineKeyboardButton("✨ STATUS 🌺", url="https://t.me/mylog_channel")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About ", callback_data="about")
         ],
-        [InlineKeyboardButton("More Amazing bots ♻️", url="https://t.me/miuiprojects")],
+        [InlineKeyboardButton("More Amazing bots ♻️", url="https://t.me/mylog_channel")],
     ]
 
     # Help Message
@@ -38,7 +38,7 @@ Send the link here to get the post contents including caption.
 
 2) **Profile Pictures**
 Use the command `/profile_pic` or `/dp` along with instagram username to get its profile picture.
-Example : `/dp miuiDev`
+Example : `/dp skedits`
 
 3) **Private Posts**
 Authorize the bot to download private posts. Use /auth
@@ -52,7 +52,7 @@ Use /auth to authorize and /unauth to unauthorize.
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to download instagram content by @Miuiprojects
+A telegram bot to download instagram content by @mylog_channel
 
 Source Code : [Click Here](https://github.com/KilobyteStrean/InstagramBot)
 
@@ -62,6 +62,6 @@ Language : [Python](www.python.org)
 
 Developer : @StarkProgrammer
 
-Noob Dev : @madhavanmi
+Noob Dev : @sathish3451
 
     """
